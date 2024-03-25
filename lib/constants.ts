@@ -56,6 +56,14 @@ export const POLYGON_TOKENS: Token[] = [
       "https://raw.githubusercontent.com/maticnetwork/polygon-token-assets/main/assets/tokenAssets/uni.svg",
   },
   {
+     chainId: 137,
+     name: "CALI",
+     symbol: "CALI",
+     decimals: 18,
+     address: "0x2bf397fc57262bb2f3d2325a12306fae0f9103e7",
+     logoURI: "https://raw.githubusercontent.com/maticnetwork/polygon-token-assets/main/assets/tokenAssets/bnb.svg",
+    },
+  {
     chainId: 137,
     name: "Tether USD - PoS",
     symbol: "USDT",
@@ -103,6 +111,14 @@ export const POLYGON_TOKENS_BY_SYMBOL: Record<string, Token> = {
     logoURI:
       "https://raw.githubusercontent.com/maticnetwork/polygon-token-assets/main/assets/tokenAssets/uni.svg",
   },
+  cali: {
+    chainId: 137,
+    name: "CALI",
+    symbol: "CALI",
+    decimals: 18,
+    address: "0x2bf397fc57262bb2f3d2325a12306fae0f9103e7",
+    logoURI: "https://raw.githubusercontent.com/maticnetwork/polygon-token-assets/main/assets/tokenAssets/bnb.svg",
+   },
   usdt: {
     chainId: 137,
     name: "Tether USD - PoS",
@@ -151,6 +167,14 @@ export const POLYGON_TOKENS_BY_ADDRESS: Record<string, Token> = {
     logoURI:
       "https://raw.githubusercontent.com/maticnetwork/polygon-token-assets/main/assets/tokenAssets/uni.svg",
   },
+  "0x2bf397fc57262bb2f3d2325a12306fae0f9103e7": {
+    chainId: 137,
+    name: "CALI",
+    symbol: "CALI",
+    decimals: 18,
+    address: "0x2bf397fc57262bb2f3d2325a12306fae0f9103e7",
+    logoURI: "https://raw.githubusercontent.com/maticnetwork/polygon-token-assets/main/assets/tokenAssets/bnb.svg",
+   },
   "0xc2132d05d31c914a87c6611c10748aeb04b58e8f": {
     chainId: 137,
     name: "Tether USD - PoS",

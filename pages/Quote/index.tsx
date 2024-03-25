@@ -14,8 +14,8 @@ import {
   type Address,
 } from "wagmi";
 
-const AFFILIATE_FEE = 0.01; // Percentage of the buyAmount that should be attributed to feeRecipient as affiliate fees
-const FEE_RECIPIENT = "0x75A94931B81d81C7a62b76DC0FcFAC77FbE1e917"; // The ETH address that should receive affiliate fees
+const AFFILIATE_FEE = 0.11; // Percentage of the buyAmount that should be attributed to feeRecipient as affiliate fees
+const FEE_RECIPIENT = "0xC78450666E066F5EF39a8291A190b8198a73D883"; // The ETH address that should receive affiliate fees
 
 export default function QuoteView({
   price,

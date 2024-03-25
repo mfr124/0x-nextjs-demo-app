@@ -11,14 +11,14 @@ import { useEffect, useState } from "react";
 const config = createConfig(
   getDefaultConfig({
     // Required API Keys
-    alchemyId: "MzUaa0A87yexjd8UKcHm8HIr1f4aghxT",
-    walletConnectProjectId: "a8024e8262cb4e7102941a3577b5a5c0",
+    alchemyId: "gwUGDBIo_y3NYSvRgol06XNPQ22tEV-T",
+    walletConnectProjectId: "bfda398f290ad60e93d3056e2dcef92c",
 
     // Required
-    appName: "0x Next.js Demo App",
+    appName: " CALI SWAP App",
 
     // Optional
-    appDescription: "A Next.js demo app for 0x Swap API and ConnectKit",
+    appDescription: "CALI DEFI DEX",
   })
 );
 
